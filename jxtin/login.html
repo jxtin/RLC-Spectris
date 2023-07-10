@@ -1,0 +1,59 @@
+<HTMl>
+
+<head>
+    <TITLE>Login-Jxtin</TITLE>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/login.js"></script>
+
+</head>
+
+
+<BODY>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Login</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="my-form">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-horizontal" onSubmit="return false;">
+                    <div class="form-group">
+                        <label for="username" class="col-sm-2 control-label">username</label>
+                        <div class="col-sm-10" id="inputs">
+                            <input type="text" class="form-control" id="username" name="username"
+                                placeholder="username">
+                        </div>
+                        <div class="col-sm-10" id="inputs">
+                            <input type="password" class="form-control" id="password" name="password"
+                                placeholder="password">
+                        </div>
+
+                    </div>
+                    <!-- submit button -->
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="button" name="submit" class="btn btn-primary"
+                                id="submit-username">Submit</button>
+                        </div>
+                        <small id="passwordHelpInline" class="text-muted">
+                            Must be 8-20 characters long.
+                        </small>
+                        <small id="passwordHint" class="text-muted">
+                        </small>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</BODY>
+
+
+</HTMl>
