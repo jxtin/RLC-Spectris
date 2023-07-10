@@ -64,21 +64,21 @@
           document.getElementById("password").style.cssText = `
                           border: 0;
                         outline: 0;
-                        border-bottom: 2px solid yellow;
+                        border-bottom: 5px solid yellow;
                     `;
         } 
         else if (password.length > 0 && password.length < 8) {
           document.getElementById("password").style.cssText = `
                           border: 0;
                           outline: 0;
-                          border-bottom: 2px solid red;
+                          border-bottom: 5px solid red;
                   `;
         }
         else if(password.length === 0){
           document.getElementById("password").style.cssText = `
                           border: 0;
                           outline: 0;
-                          border-bottom: 2px solid red;
+                          border-bottom: 5px solid red;
                   `;
         }
       }
