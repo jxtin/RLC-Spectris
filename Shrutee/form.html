@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        
+        <div class="right">
+            <p class="login-p">Perfect Login</p>
+            <ul>
+                <li>Unicersal</li>
+                <li>High Conversion</li>
+                <li>Desktop & Mobile</li>
+            </ul>
+        </div>
+        <div class="left">
+            <div class="form-container">
+                <div class="f-left">
+                </div>
+                <form class="f-right">
+                    <span class="circle"></span>
+                    <p class="para">Nice to see you again!</p>
+                    <label for="username">Username</label><br><br>
+                    <input type="text" placeholder="Email or phone number" required><br><br>
+                    <label for="password">Password</label><br><br>
+                    <input type="password" placeholder="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
+
+                    <input type="checkbox">
+                    <label for="me">Remember me</label><br><br>
+
+                    <button class="btn" onclick="handleclick">Login</button><br><br>
+
+                    <button class="google">Or sign in with google</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function handleclick(){
+            alert('Login Successful!');
+        }
+             
+    </script>
+</body>
+</html>
